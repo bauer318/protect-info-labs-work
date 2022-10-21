@@ -5,7 +5,6 @@ public class Main {
         int m = 4096*4;
         int y0 = m-5;
         int y1 = 4091;
-        int j = 0;
         int gamma[] = getGamma(m,y0,y1);
         long startTime = System.currentTimeMillis();
         String encryptedText = encryptDecryptText(toCode, gamma);
